@@ -1,0 +1,14 @@
+.popular-projects {
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:  20px 40px;
+    margin-top: 60px;
+  }
+
+  &__btn {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+  }
+}

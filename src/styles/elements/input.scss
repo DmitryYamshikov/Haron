@@ -1,0 +1,20 @@
+.form-input {
+  width: 100%;
+
+  &__input {
+    width: 100%;
+    color: #333333;
+    border: 1px solid #c7c7c7;
+    background-color: #f8f8f8;
+    height: 60px;
+    padding: 0 17px;
+
+    &:focus {
+      outline: none;
+
+      ::placeholder {
+        font-size: 0;
+      }
+    }
+  }
+}

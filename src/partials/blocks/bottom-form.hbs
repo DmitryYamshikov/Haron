@@ -1,0 +1,15 @@
+<div class="bottom-form">
+  <div class="bottom-form__wrapper container">
+    <div class="bottom-form__title">
+      Оставьте заявку и мы <em>бесплатно сделаем</em> предварительный расчет
+    </div>
+    <form class="bottom-form__form">
+      {{> elements/input name='name' holder='Ваше имя' }}
+      {{> elements/input name='phone' holder='Телефон' }}
+      {{> elements/textarea rows=3 name='message' holder='Здесь вы можете написать ваши пожелания' }}
+      <div class="bottom-form__form-btn">
+        {{> elements/btn title='Отправить'}}
+      </div>
+    </form>
+  </div>
+</div>

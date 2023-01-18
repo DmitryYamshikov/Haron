@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru" class="compensate-for-scrollbar">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>{{ title }}</title>
+        {{#if @global.publicPath }}
+            <base href="{{ @global.publicPath }}">
+        {{/if}}
+        <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css" />
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <!-- inject:css -->
+        <!-- endinject -->
+    </head>
+    <body id="top">
+        <div class="body">
+            {{> blocks/header }}
+            <div class="site-body">
+                {{#block "main-before"}}{{/block}}
+                {{#block "main"}}{{/block}}
+                {{#block "main-after"}}{{/block}}
+            </div>
+            {{> blocks/bottom-form}}
+            {{> blocks/footer }}
+        </div>
+        <!-- inject:js -->
+        <!-- endinject -->
+    </body>
+</html>

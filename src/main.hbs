@@ -1,0 +1,54 @@
+{{#extend "layouts/base" title="Главная страница" }}
+    {{#content "main-before"}}
+    {{/content}}
+    {{#content "main"}}
+      <div class="main-page">
+        {{> blocks/banner }}
+        <div class="container">
+          {{> blocks/main-slider }}
+          <div class="main-page__five-reasons">
+            {{> blocks/five-reasons }}
+          </div>
+          <h1>Advantages</h1>
+          <div class="main__categories">
+            {{> blocks/categories }}
+          </div>
+        </div>
+        <section class="main-page__new-projects">
+          <div class="container">
+            {{> blocks/new-projects }}
+          </div>
+        </section>
+        <section class="main-page__popular-projects">
+          <div class="container">
+            {{> blocks/popular-projects }}
+          </div>
+        </section>
+        <div class="main-page__order">
+          <div class="container">
+            {{> blocks/order }}
+          </div>
+        </div>
+        <section>
+          {{> blocks/promo }}
+        </section>
+        <section class="main-page__team">
+          <div class="container">
+            {{> blocks/team }}
+          </div>
+        </section>
+        <section class="main-page__reviews">
+          <div class="container">
+            {{> blocks/reviews }}
+          </div>
+        </section>
+        <section class="main-page__choice">
+          <div class="container">
+            {{> blocks/choice }}
+          </div>
+        </section>
+      </div>
+    {{/content}}
+    {{#content "main-after"}}
+    {{/content}}
+{{/extend}}

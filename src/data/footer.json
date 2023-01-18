@@ -1,0 +1,104 @@
+{
+  "menuCatalog": {
+    "title": "Каталог",
+    "link": "",
+    "list": [
+      {
+        "name": "Вентиляторы",
+        "link": ""
+      },
+      {
+        "name": "Воздуховоды и фасонные элементы",
+        "link": ""
+      },
+      {
+        "name": "Воздухораспределители",
+        "link": ""
+      },
+      {
+        "name": "Детали систем вентиляции",
+        "link": ""
+      },
+      {
+        "name": "Клапаны",
+        "link": ""
+      },
+      {
+        "name": "Приточно-вытяжные установки",
+        "link": ""
+      },
+      {
+        "name": "Приборы автоматики",
+        "link": ""
+      },
+      {
+        "name": "Теплообменное оборудование",
+        "link": ""
+      },
+      {
+        "name": "Фильтры",
+        "link": ""
+      },
+      {
+        "name": "Холодильное оборудование",
+        "link": ""
+      }
+    ]
+  },
+  "menuAbout": {
+    "title": "О нас",
+    "link": "",
+    "list": [
+      {
+        "name": "О компании",
+        "link": "about.html"
+      },
+      {
+        "name": "Преимущества",
+        "link": "benefits.html"
+      },
+      {
+        "name": "Наши проекты",
+        "link": ""
+      },
+      {
+        "name": "Блог",
+        "link": ""
+      },
+      {
+        "name": "Карьера",
+        "link": "https://hh.ru/employer/1533366"
+      },
+      {
+        "name": "Контакты",
+        "link": ""
+      }
+    ]
+  },
+  "menuSupport": {
+    "title": "Поддержка",
+    "link": "support.html",
+    "list": [
+      {
+        "name": "Сервисная поддержка",
+        "link": "support.html#anchor-support-services"
+      },
+      {
+        "name": "Техническая документация",
+        "link": "support.html#anchor-support-techdoc"
+      },
+      {
+        "name": "Доставка",
+        "link": "support.html#anchor-support-payment"
+      },
+      {
+        "name": "Оплата",
+        "link": "support.html#anchor-support-delivery"
+      },
+      {
+        "name": "Возврат товара",
+        "link": "support.html#anchor-support-return"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+.banner {
+  height: 100vh;
+  min-height: 600px;
+  background-image: url("/src/images/banner.png");
+  background-repeat: no-repeat;
+  background-position: right center;
+
+  &__content {
+    max-width: 60%;
+
+    p {
+      color: #333333;
+      font-size: 20px;
+      margin-bottom: 35px;
+      max-width: 570px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 35px;
+    span {
+      color: #c2a457;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: flex-start;
+
+    .btn {
+      font-weight: 600;
+
+      &:first-child {
+        margin-right: 12px;
+      }
+    }
+  }
+}

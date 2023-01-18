@@ -1,0 +1,110 @@
+$svg-icons-icon--arrow-down: (
+    '../images/icons-sprite.svg',
+    round(13px * 1000) / 1000,
+    round(8px * 1000) / 1000,
+    round((0px - (17px - 13px) / 2) * 1000) / 1000,
+    round((0px - (12px - 8px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--arrow-down-sm: (
+    '../images/icons-sprite.svg',
+    round(8.71px * 1000) / 1000,
+    round(5.0600000000000005px * 1000) / 1000,
+    round((-17px - (12.71px - 8.71px) / 2) * 1000) / 1000,
+    round((0px - (9.06px - 5.0600000000000005px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--arrow-left: (
+    '../images/icons-sprite.svg',
+    round(11px * 1000) / 1000,
+    round(19px * 1000) / 1000,
+    round((-30px - (15px - 11px) / 2) * 1000) / 1000,
+    round((0px - (23px - 19px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--arrow-long-right: (
+    '../images/icons-sprite.svg',
+    round(32px * 1000) / 1000,
+    round(16px * 1000) / 1000,
+    round((-45px - (36px - 32px) / 2) * 1000) / 1000,
+    round((0px - (20px - 16px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--availability: (
+    '../images/icons-sprite.svg',
+    round(20px * 1000) / 1000,
+    round(20px * 1000) / 1000,
+    round((-81px - (24px - 20px) / 2) * 1000) / 1000,
+    round((0px - (24px - 20px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--burger: (
+    '../images/icons-sprite.svg',
+    round(20px * 1000) / 1000,
+    round(20px * 1000) / 1000,
+    round((-105px - (24px - 20px) / 2) * 1000) / 1000,
+    round((0px - (24px - 20px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--burger-sm: (
+    '../images/icons-sprite.svg',
+    round(16px * 1000) / 1000,
+    round(16px * 1000) / 1000,
+    round((-129px - (20px - 16px) / 2) * 1000) / 1000,
+    round((0px - (20px - 16px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--close: (
+    '../images/icons-sprite.svg',
+    round(10px * 1000) / 1000,
+    round(10px * 1000) / 1000,
+    round((-149px - (14px - 10px) / 2) * 1000) / 1000,
+    round((0px - (14px - 10px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--configurator: (
+    '../images/icons-sprite.svg',
+    round(23px * 1000) / 1000,
+    round(23px * 1000) / 1000,
+    round((-163px - (27px - 23px) / 2) * 1000) / 1000,
+    round((0px - (27px - 23px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--configurator-active: (
+    '../images/icons-sprite.svg',
+    round(23px * 1000) / 1000,
+    round(23px * 1000) / 1000,
+    round((-190px - (27px - 23px) / 2) * 1000) / 1000,
+    round((0px - (27px - 23px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--configurator-active-sm: (
+    '../images/icons-sprite.svg',
+    round(18.82px * 1000) / 1000,
+    round(19.35px * 1000) / 1000,
+    round((-217px - (22.82px - 18.82px) / 2) * 1000) / 1000,
+    round((0px - (23.35px - 19.35px) / 2) * 1000) / 1000
+);
+
+$svg-icons-icon--fileinput: (
+    '../images/icons-sprite.svg',
+    round(10px * 1000) / 1000,
+    round(20px * 1000) / 1000,
+    round((-240px - (14px - 10px) / 2) * 1000) / 1000,
+    round((0px - (24px - 20px) / 2) * 1000) / 1000
+);
+
+$svg-icons: (
+    icon--arrow-down: $svg-icons-icon--arrow-down,
+    icon--arrow-down-sm: $svg-icons-icon--arrow-down-sm,
+    icon--arrow-left: $svg-icons-icon--arrow-left,
+    icon--arrow-long-right: $svg-icons-icon--arrow-long-right,
+    icon--availability: $svg-icons-icon--availability,
+    icon--burger: $svg-icons-icon--burger,
+    icon--burger-sm: $svg-icons-icon--burger-sm,
+    icon--close: $svg-icons-icon--close,
+    icon--configurator: $svg-icons-icon--configurator,
+    icon--configurator-active: $svg-icons-icon--configurator-active,
+    icon--configurator-active-sm: $svg-icons-icon--configurator-active-sm,
+    icon--fileinput: $svg-icons-icon--fileinput,
+);

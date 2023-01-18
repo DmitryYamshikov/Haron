@@ -1,0 +1,39 @@
+.main-page {
+  &__five-reasons {
+    padding-top: 30px;
+  }
+  &__new-projects {
+    padding-top: 135px;
+    padding-bottom: 75px;
+    background-color: #e8e8ee;
+  }
+
+  &__popular-projects {
+    padding-top: 135px;
+    padding-bottom: 75px;
+    background-color: #e8e8ee;
+  }
+
+  &__order {
+    background-color: #e8e8ee;
+    padding: 30px 0 100px 0;
+  }
+
+  &__team {
+    padding-top: 150px;
+    padding-bottom: 15px;
+    background-color: #f8f8f8;
+  }
+
+  &__reviews {
+    padding-top: 165px;
+    padding-bottom: 150px;
+    background-color: #f8f8f8;
+  }
+
+  &__choice {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: #e8e8ee;
+  }
+}

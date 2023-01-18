@@ -1,0 +1,32 @@
+@import 'reset';
+
+@import "vendors/swiper";
+@import "vendors/navigation";
+
+@import 'base';
+
+@import 'pages/main-page';
+
+@import 'blocks/header';
+@import 'blocks/footer';
+@import 'blocks/menu';
+@import 'blocks/bottom-form';
+@import 'blocks/main-slider';
+@import 'blocks/five-reasons';
+@import 'blocks/new-projects';
+@import 'blocks/popular-projects';
+@import 'blocks/order';
+@import 'blocks/team';
+@import 'blocks/reviews';
+@import 'blocks/choice';
+@import 'blocks/promo';
+@import 'blocks/categories';
+@import 'blocks/banner';
+
+@import 'cards/product-demo';
+@import 'cards/new-project';
+@import 'cards/person';
+
+@import 'elements/btn';
+@import 'elements/input';
+@import 'elements/textarea';

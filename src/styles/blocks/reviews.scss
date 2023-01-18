@@ -1,0 +1,12 @@
+.reviews {
+  width: 100%;
+  overflow: hidden;
+  &__wrapper {
+    display: flex;
+    margin-top: 75px;
+  }
+
+  &__item {
+    max-width: 400px;
+  }
+}

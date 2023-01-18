@@ -1,0 +1,13 @@
+.main-slider {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  &__wrapper {
+    display: flex;
+  }
+
+  &__item {
+    margin: 0 8px;
+    width: 260px;
+  }
+}

@@ -1,0 +1,25 @@
+.footer {
+  background-color: #1a1a1a;
+  padding: 15px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    color: #707070;
+    font-size: 14px;
+    font-weight: 300;
+    max-width: 260px;
+  }
+
+  &__links {
+    display: flex;
+    a {
+      width: 260px;
+      color: #9e853f;
+      font-size: 14px;
+    }
+  }
+}
