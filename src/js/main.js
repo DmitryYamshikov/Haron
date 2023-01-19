@@ -1,4 +1,5 @@
 import {initMainSlider, initReviewsSlider} from "./sliders";
+import {toggleMobileMenu} from "./mobileMenu";
 
 
 function headerScroll() {
@@ -17,4 +18,5 @@ document.addEventListener('DOMContentLoaded', () => {
   headerScroll()
   initMainSlider()
   initReviewsSlider()
+  toggleMobileMenu()
 })
