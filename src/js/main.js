@@ -13,8 +13,6 @@ function headerScroll() {
   })
 }
 
-
-
 document.addEventListener('DOMContentLoaded', () => {
   headerScroll()
   initMainSlider()

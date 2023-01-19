@@ -1,12 +1,56 @@
 .reviews {
   width: 100%;
-  overflow: hidden;
+
+  &__slider {
+    overflow: hidden;
+    position: relative;
+  }
+
   &__wrapper {
     display: flex;
     margin-top: 75px;
+    position: relative;
   }
 
   &__item {
     max-width: 400px;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 1px solid #c2a457;
+    color: #c2a457;
+    transition: all .2s ease-in-out;
+
+    &:after {
+      font-size: 27px;
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    &:hover {
+      background-color: #c2a457;
+      color: #fff;
+    }
+  }
+
+  .swiper-button-prev {
+    left: 0;
+
+    &:after {
+      left: 45%;
+    }
+  }
+
+  .swiper-button-next {
+    right: 0;
+
+    &:after {
+      left: 55%;
+    }
   }
 }
