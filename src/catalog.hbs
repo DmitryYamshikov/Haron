@@ -1,0 +1,70 @@
+{{#extend "layouts/base" title="Главная страница"}}
+  {{#content "main"}}
+    <div class="container">
+      <div class="catalog">
+        <h1>Вертикальные памятники<br> из гранита</h1>
+        <div class="catalog__wrapper">
+          <div class="catalog__top">
+            <a href="#" class="catalog__back">⟵ Все памятники</a>
+            <div class="catalog__tag-filter">
+              <a href="#" class="catalog__tag-item ">Военным</a>
+              <a href="#" class="catalog__tag-item catalog__tag-item--active">Вертикальные гранитные</a>
+              <a href="#" class="catalog__tag-item">Семейные</a>
+              <a href="#" class="catalog__tag-item">Комбинированные гранитные</a>
+              <a href="#" class="catalog__tag-item">Мраморные</a>
+              <a href="#" class="catalog__tag-item">Резные</a>
+              <a href="#" class="catalog__tag-item">Готовые</a>
+            </div>
+          </div>
+          <div class="catalog__content">
+            <aside class="catalog__aside">
+              <div class="catalog__filter filter-catalog">
+                <div class="filter-catalog__category">
+                  <div class="filter-catalog__category-title">Материал</div>
+                  <div class="filter-catalog__category-wrapper">
+                    <a href="#" class="filter-catalog__category-item">Гранит</a>
+                    <a href="#" class="filter-catalog__category-item">Гранит</a>
+                    <a href="#" class="filter-catalog__category-item">Гранит</a>
+                    <a href="#" class="filter-catalog__category-item">Гранит</a>
+                  </div>
+                </div>
+                <div class="filter-catalog__category">
+                  <div class="filter-catalog__category-title">Форма памятника</div>
+                  <div class="filter-catalog__category-wrapper">
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Военный" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Комбинированный" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Мусульманский" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Прямоугольный" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С ангелом" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С крестом" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С сердцем" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С храмом" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С цветами и растениями" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Фигурный" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Военный" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Комбинированный" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Мусульманский" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Прямоугольный" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С ангелом" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С крестом" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С сердцем" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С храмом" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="С цветами и растениями" }}</div>
+                    <div class="filter-catalog__input">{{> elements/checkbox title="Фигурный" }}</div>
+                  </div>
+                </div>
+              </div>
+            </aside>
+            <div class="catalog__list">
+              {{#times 12}}
+                <div class="catalog__item">
+                  {{> cards/catalog-item }}
+                </div>
+              {{/times}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/content}}
+{{/extend}}

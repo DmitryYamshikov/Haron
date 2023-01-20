@@ -6,6 +6,7 @@
 @import 'base';
 
 @import 'pages/main-page';
+@import 'pages/catalog';
 
 @import 'blocks/header';
 @import 'blocks/footer';
@@ -27,7 +28,9 @@
 @import 'cards/product-demo';
 @import 'cards/new-project';
 @import 'cards/person';
+@import 'cards/catalog-item';
 
 @import 'elements/btn';
 @import 'elements/input';
 @import 'elements/textarea';
+@import 'elements/checkbox';
