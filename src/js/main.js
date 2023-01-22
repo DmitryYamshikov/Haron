@@ -1,5 +1,6 @@
 import {initMainSlider, initReviewsSlider} from "./sliders";
 import {toggleMobileMenu} from "./mobileMenu";
+import {catalogFilter} from "./catalogFilter";
 
 
 function headerScroll() {
@@ -23,4 +24,5 @@ document.addEventListener('DOMContentLoaded', () => {
   initMainSlider()
   initReviewsSlider()
   toggleMobileMenu()
+  catalogFilter()
 })
