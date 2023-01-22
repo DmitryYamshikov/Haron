@@ -1,0 +1,89 @@
+{{#extend "layouts/base" title="Главная страница"}}
+  {{#content "main"}}
+    <div class="order-page">
+      <div class="container">
+        <h1 class="order-page__title">Как сделать заказ</h1>
+        <div class="order-page__subtitle">Выбрать и заказать памятник у нас просто и удобно. Выберите удобный для вас
+          способ.
+        </div>
+        <div class="order-page__choice">
+          {{> blocks/choice title=false btn-more=false}}
+        </div>
+      </div>
+      <div class="order-page__steps">
+        <div class="container">
+          <h2>Этапы работ</h2>
+          <div class="order-page__steps-wrapper">
+            <div class="order-page__step">
+              <div class="order-page__step-number">1</div>
+              <div class="order-page__step-text">
+                <div class="order-page__step-title">Обсуждение концепции</div>
+                <div class="order-page__step-description">
+                  Наши менеджеры помогут подобрать памятник, исходя из ваших пожеланий, бюджета и сделают предварительный расчёт проекта.
+                </div>
+              </div>
+            </div>
+            <div class="order-page__step">
+              <div class="order-page__step-number">2</div>
+              <div class="order-page__step-text">
+                <div class="order-page__step-title">Замеры и расчет проекта</div>
+                <div class="order-page__step-description">
+                  Полный проект документации с рабочими чертежами, делаем подробный расчет нагрузок перед изготовлением.
+                </div>
+              </div>
+            </div>
+            <div class="order-page__step">
+              <div class="order-page__step-number">3</div>
+              <div class="order-page__step-text">
+                <div class="order-page__step-title">Изготовление</div>
+                <div class="order-page__step-description">
+                  Изготовление памятника или мемориального комплекса по вашему проекту из выбранного камня.
+                </div>
+              </div>
+            </div>
+            <div class="order-page__step">
+              <div class="order-page__step-number">4</div>
+              <div class="order-page__step-text">
+                <div class="order-page__step-title">Установка</div>
+                <div class="order-page__step-description">
+                  Полный комплекс строительно-монтажных работ.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="order-page__delivery">
+        <div class="container">
+          <h2>Доставка по г. Новосибирску и регионам РФ</h2>
+          <div class="order-page__delivery-wrapper">
+            <div class="order-page__delivery-item">
+              <div class="order-page__delivery-item-title">Доставка при установке</div>
+              <div class="order-page__delivery-item-text">
+                При заказе установки памятника доставка включена в стоимость монтажа.
+              </div>
+            </div>
+            <div class="order-page__delivery-item">
+              <div class="order-page__delivery-item-title">Доставка до адреса</div>
+              <div class="order-page__delivery-item-text">
+                Вы можете заказать доставку до определенного адреса: на кладбище, офис компании. Услуга рассчитывается отдельно.
+              </div>
+            </div>
+            <div class="order-page__delivery-item">
+              <div class="order-page__delivery-item-title">Самовывоз</div>
+              <div class="order-page__delivery-item-text">
+                Свой заказ вы можете забрать самостоятельно на производстве. Более подробнее, у наших менеджеров.
+              </div>
+            </div>
+            <div class="order-page__delivery-item">
+              <div class="order-page__delivery-item-title">Доставка по России</div>
+              <div class="order-page__delivery-item-text">
+                Доставка в регионы РФ осуществляется транспортными компаниями. Стоимость доставки рассчитывается по тарифам ТК.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{/content}}
+{{/extend}}
