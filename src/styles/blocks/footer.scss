@@ -5,6 +5,10 @@
   &__wrapper {
     display: flex;
     justify-content: space-between;
+
+    @media(max-width: 640px) {
+      flex-direction: column;
+    }
   }
 
   &__text {
@@ -12,6 +16,11 @@
     font-size: 14px;
     font-weight: 300;
     max-width: 260px;
+
+    @media(max-width: 640px) {
+      max-width: unset;
+      margin-bottom: 40px;
+    }
   }
 
   &__links {
@@ -20,6 +29,18 @@
       width: 260px;
       color: #9e853f;
       font-size: 14px;
+    }
+
+    @media(max-width: 960px) {
+      flex-direction: column;
+
+      a {
+        width: auto;
+
+        &:first-child {
+          margin-bottom: 15px;
+        }
+      }
     }
   }
 }

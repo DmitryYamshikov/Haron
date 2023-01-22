@@ -5,13 +5,17 @@ import {toggleMobileMenu} from "./mobileMenu";
 function headerScroll() {
   const header = document.querySelector('.header')
 
-  document.addEventListener('scroll', () => {
+  function headerScrollHandler() {
     if (window.scrollY > 0) {
       header.classList.add('header--scroll')
     } else {
       header.classList.remove('header--scroll')
     }
-  })
+  }
+
+  headerScrollHandler()
+
+  document.addEventListener('scroll', headerScrollHandler)
 }
 
 document.addEventListener('DOMContentLoaded', () => {

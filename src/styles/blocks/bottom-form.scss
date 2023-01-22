@@ -6,6 +6,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 40px;
+
+    @media(max-width: 960px) {
+      grid-template-columns: 1fr;
+      gap: 40px;
+    }
   }
 
   &__title {
@@ -14,13 +19,33 @@
     line-height: 1.2;
     font-weight: 500;
     font-family: 'Playfair Display', sans-serif;
+
+    @media(max-width: 1200px) {
+      font-size: 44px;
+    }
+
+    @media(max-width: 640px) {
+      font-size: 28px;
+    }
   }
 
   &__form {
     max-width: 460px;
 
+    @media(max-width: 960px) {
+      max-width: unset;
+    }
+
     >* {
       margin-bottom: 25px;
+    }
+  }
+
+  &__form-btn {
+    @media(max-width: 640px) {
+      .btn {
+        width: 100%;
+      }
     }
   }
 }

@@ -36,4 +36,11 @@
     padding-bottom: 150px;
     background-color: #e8e8ee;
   }
+
+  @media(max-width: 640px) {
+    & > * {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
 }

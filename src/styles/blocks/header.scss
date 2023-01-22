@@ -104,6 +104,39 @@
       }
     }
   }
+
+  @media(max-width: 640px) {
+    &__logo {
+      max-width: 130px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    &__mobile {
+      display: flex;
+      margin: 0 -10px;
+      align-items: center;
+      margin-left: 20px;
+
+      > * {
+        margin: 0 10px;
+      }
+    }
+
+    &__wa,
+    &__phone {
+      width: 30px;
+      height: 30px;
+    }
+
+    &__burger {
+      width: 60px;
+      height: 60px;
+    }
+  }
 }
 
 .mobile-menu {

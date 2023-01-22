@@ -13,7 +13,6 @@
     padding: 55px 50px;
     background-repeat: no-repeat;
     background-position: right center;
-    //background-size: auto 80%;
     background-size: auto;
     margin: 10px;
     
@@ -71,5 +70,46 @@
   .btn {
     margin-top: 25px;
     width: 150px;
+  }
+
+  @media(max-width: 1200px) {
+    &__wrapper {
+      flex-direction: column;
+      margin: 0;
+    }
+    &__item {
+      width: 100%;
+      margin: 0 0 20px;
+    }
+  }
+
+  @media(max-width: 960px) {
+    &__item {
+      &.w100 {
+        .categories__item-text {
+          width: 100%;
+          max-width: unset;
+        }
+      }
+    }
+    &__item-text {
+      width: 100%;
+      max-width: unset;
+    }
+  }
+
+  @media(max-width: 640px) {
+    &__item {
+      padding: 30px;
+      background-size: 50% 50%;
+    }
+
+    &__item-text {
+      ul {
+        &.col-2 {
+          column-count: 1;
+        }
+      }
+    }
   }
 }

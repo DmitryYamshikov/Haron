@@ -9,4 +9,16 @@
     width: 33%;
     margin-bottom: 90px;
   }
+
+  @media(max-width: 960px) {
+    &__person {
+      width: 50%;
+    }
+  }
+
+  @media(max-width: 480px) {
+    &__person {
+      width: 100%;
+    }
+  }
 }
